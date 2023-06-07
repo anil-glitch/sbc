@@ -13,8 +13,8 @@
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
 
   <!-- Prodrive Technologies remotes -->
-  <remote fetch="https://bitbucket.prodrive.nl/scm/ptic203904"   name="ptic"/>
-  <remote fetch="ssh://git@bitbucket.prodrive.nl:7999/sbcp220003"   name="prodrive-sbcp"/>
+  <!--remote fetch="https://bitbucket.prodrive.nl/scm/ptic203904"   name="ptic"/>
+  <remote fetch="ssh://git@bitbucket.prodrive.nl:7999/sbcp220003"   name="prodrive-sbcp"/-->
 
   <!-- Layers from the original imx recipe-->
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="kirkstone">
@@ -34,9 +34,9 @@
   <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
 
   <!-- Prodrive layers from PTIC and Single Board Computer Plus -->
-  <project name="meta-ptic.git" path="sources/meta-ptic" remote="ptic" revision="release/preliminary-imx8mp-release-r02" upstream="kirkstone"/>
+  <!-- project name="meta-ptic.git" path="sources/meta-ptic" remote="ptic" revision="release/preliminary-imx8mp-release-r02" upstream="kirkstone"/>
   <project name="meta-prodrive-sbcp.git" path="sources/meta-prodrive-sbcp" remote="prodrive-sbcp" revision="refs/tags/2.0.0">
-    <linkfile dest="imx-setup-release.sh" src="imx-setup-release.sh"/>
+    <linkfile dest="imx-setup-release.sh" src="imx-setup-release.sh"/-->
   </project>
 
 </manifest>
