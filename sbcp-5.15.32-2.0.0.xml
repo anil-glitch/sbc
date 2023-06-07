@@ -35,8 +35,8 @@
 
   <!-- Prodrive layers from PTIC and Single Board Computer Plus -->
   <!-- project name="meta-ptic.git" path="sources/meta-ptic" remote="ptic" revision="release/preliminary-imx8mp-release-r02" upstream="kirkstone"/>
-  <project name="meta-prodrive-sbcp.git" path="sources/meta-prodrive-sbcp" remote="prodrive-sbcp" revision="refs/tags/2.0.0">
-    <linkfile dest="imx-setup-release.sh" src="imx-setup-release.sh"/-->
+  <project name="meta-prodrive-sbcp.git" path="sources/meta-prodrive-sbcp" remote="prodrive-sbcp" revision="refs/tags/2.0.0"-->
+    <linkfile dest="imx-setup-release.sh" src="imx-setup-release.sh"/>
   </project>
 
 </manifest>
