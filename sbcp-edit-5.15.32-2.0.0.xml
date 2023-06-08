@@ -31,6 +31,5 @@
 
 
     <linkfile dest="imx-setup-release.sh" src="imx-setup-release.sh"/>
-  </project>
 
 </manifest>
